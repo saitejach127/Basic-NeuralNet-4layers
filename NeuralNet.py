@@ -35,6 +35,7 @@ weig3 = 2*np.random.random((3,1)) - 1
 for _ in range(100000):
 
     #front feeding
+    #layer_next = sigmoid(dot(weights and previouslayer))
     l0 = inp_data
     l1 = sigm(l0.dot(weig1))
     l2 = sigm(l1.dot(weig2))
